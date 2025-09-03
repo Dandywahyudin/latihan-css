@@ -1,8 +1,9 @@
  body {
-        font-family: 'Courier New';
+        font-family: 'Arial', sans-serif;
         font-size: 20px;
         font-variant: small-caps;
-        font-style: italic;
+        font-weight: normal;
+        background-color: rgb(121, 170, 43);
     }
     h1 {
         color: blueviolet;
@@ -10,4 +11,39 @@
     p {
         line-height: 20px;
         color: rgb(14, 14, 13);
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .nav {
+        background-color: rgb(43, 87, 121);
+        padding: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    button {
+        background-color: skyblue;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .container {
+        background-image: url('image.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
     }
